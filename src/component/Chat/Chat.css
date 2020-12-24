@@ -1,0 +1,114 @@
+.chat{
+    /* flex: 0.65; */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: whitesmoke;
+}
+.chat_header{
+padding: 20px;
+display: flex;
+align-items: center;
+border-bottom: 1px solid lightgray;
+color: white;
+background-color: blue;
+}
+
+.chat_headerInfo{
+  
+    padding-left: 20px;
+}
+.backIcon{
+    height: 20px;
+    width: 20px;
+    
+}
+.chat_headerInfo>h2{
+    margin-bottom: 3px;
+    font-weight: 500;
+    width: 170px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.chat_headerInfo_Date{
+    color: whitesmoke;
+    font-size: 14px;
+    width: 170px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.chat_headerRight{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+}
+.chat_body{
+    flex: 1;
+padding: 30px;
+overflow: scroll;
+}
+.chat_message{
+    /* position: relative; */
+    font-size: 16px;
+    padding: 12px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: fit-content;
+}
+.chat_name{
+    /* position: absolute;
+    top: -15px; */
+    font-weight: 800;
+    font-size: xx-small;
+}
+.chat_timestamp{   
+    /* position: absolute; */
+    font-size: xx-small;
+    color: grey;
+    margin-top: 2px;
+}
+.chat_receiver{
+    margin-left: auto;
+    background-color: #b0e0e6;
+}
+.chat_footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 56px; */
+    flex-direction: row;
+    border-top: 1px solid lightgray;
+}
+.chat_footer>form{
+    flex:1;
+    display: flex;
+    padding: 10px;
+}
+.chat_footer>form>input{
+    flex:1;
+    border-radius: 30px;
+    /* height: 15px; */
+    margin-right: 10px;
+    border: none;
+    padding: 10px;
+    background-color:  #ededed;
+}
+.chat_footer>form>button{
+    padding-right: 0px;
+    color: blue;
+}
+.chat_footer>.MuiSvgIcon-root{
+    padding: 10px;
+    color: gray;
+}
+.sharebtn{
+    margin-bottom: 15px;
+}
